@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Timeplay - Quiz</title>
+    <link href="//fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link href="../styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body class="admin">
+
+    <div class="clock-container centered">
+      <div>Timer</div>
+      <div id="clock"></div>
+      <!--<div class="pause-container"><a href="javascript:;" class="pause">pause</a></div>-->
+    </div>
+
+    <section id="pick-your-avatar" class="centered">
+      <div class="container">
+        <div class="welcome centered">
+          <br><br><br>
+          welcome to<br>
+          <h1>timeplay</h1>
+          <br>
+          <div href="javascript:;" class="start">
+            <div class="arrow"></div>
+            start<br>timeplay
+          </div>
+        </div>
+        <div class="get-started">
+          <br>
+          <br>
+          <h2>Get started:</h2>
+          <br>
+          <ol class="double-spaced">
+            <li>
+              <i>(Optional Step) :</i> Connect to Wifi if you don't want to use your data<br>
+              <small>Note: This exercise should only take a couple of MB (Megabytes).</small><br><br>
+            </li>
+            <li>On your mobile device, go to:<br><b>goo.gl/2JLZ32</b> or <b>timeplay.herokuapp.com</b></li>
+            <li>Follow the instructions on your screen!</li>
+          </ol>
+          <br>
+          <br>
+        </div>
+        <h2 class="centered"><span class="avatar-instructions">Avatar Options</span></h2>
+        <div class="avatar-icon-container">
+          <input type="radio" id="avatar0" value="0" name="avatar">
+          <label for="avatar0"><div class="avatar0 avatar-icon"></div></label>
+          <input type="radio" id="avatar1" value="1" name="avatar">
+          <label for="avatar1"><div class="avatar1 avatar-icon"></div></label>
+          <input type="radio" id="avatar2" value="2" name="avatar">
+          <label for="avatar2"><div class="avatar2 avatar-icon"></div></label>
+          <input type="radio" id="avatar3" value="3" name="avatar">
+          <label for="avatar3"><div class="avatar3 avatar-icon"></div></label>
+          <input type="radio" id="avatar4" value="4" name="avatar">
+          <label for="avatar4"><div class="avatar4 avatar-icon"></div></label>
+          <input type="radio" id="avatar5" value="5" name="avatar">
+          <label for="avatar5"><div class="avatar5 avatar-icon"></div></label>
+          <input type="radio" id="avatar6" value="6" name="avatar">
+          <label for="avatar6"><div class="avatar6 avatar-icon"></div></label>
+          <input type="radio" id="avatar7" value="7" name="avatar">
+          <label for="avatar7"><div class="avatar7 avatar-icon"></div></label>
+          <input type="radio" id="avatar8" value="8" name="avatar">
+          <label for="avatar8"><div class="avatar8 avatar-icon"></div></label>
+          <input type="radio" id="avatar9" value="9" name="avatar">
+          <label for="avatar9"><div class="avatar9 avatar-icon"></div></label>
+          <input type="radio" id="avatar10" value="10" name="avatar">
+          <label for="avatar10"><div class="avatar10 avatar-icon"></div></label>
+          <input type="radio" id="avatar11" value="11" name="avatar">
+          <label for="avatar11"><div class="avatar11 avatar-icon"></div></label>
+          <input type="radio" id="avatar12" value="12" name="avatar">
+          <label for="avatar12"><div class="avatar12 avatar-icon"></div></label>
+          <input type="radio" id="avatar13" value="13" name="avatar">
+          <label for="avatar13"><div class="avatar13 avatar-icon"></div></label>
+          <input type="radio" id="avatar14" value="14" name="avatar">
+          <label for="avatar14"><div class="avatar14 avatar-icon"></div></label>
+          <input type="radio" id="avatar15" value="15" name="avatar">
+          <label for="avatar15"><div class="avatar15 avatar-icon"></div></label>
+          <input type="radio" id="avatar16" value="16" name="avatar">
+          <label for="avatar16"><div class="avatar16 avatar-icon"></div></label>
+          <input type="radio" id="avatar17" value="17" name="avatar">
+          <label for="avatar17"><div class="avatar17 avatar-icon"></div></label>
+          <input type="radio" id="avatar18" value="18" name="avatar">
+          <label for="avatar18"><div class="avatar18 avatar-icon"></div></label>
+          <input type="radio" id="avatar19" value="19" name="avatar">
+          <label for="avatar19"><div class="avatar19 avatar-icon"></div></label>
+          <input type="radio" id="avatar20" value="20" name="avatar">
+          <label for="avatar20"><div class="avatar20 avatar-icon"></div></label>
+          <input type="radio" id="avatar21" value="21" name="avatar">
+          <label for="avatar21"><div class="avatar21 avatar-icon"></div></label>
+          <input type="radio" id="avatar22" value="22" name="avatar">
+          <label for="avatar22"><div class="avatar22 avatar-icon"></div></label>
+          <input type="radio" id="avatar23" value="23" name="avatar">
+          <label for="avatar23"><div class="avatar23 avatar-icon"></div></label>
+          <input type="radio" id="avatar24" value="24" name="avatar">
+          <label for="avatar24"><div class="avatar24 avatar-icon"></div></label>
+          <input type="radio" id="avatar25" value="25" name="avatar">
+          <label for="avatar25"><div class="avatar25 avatar-icon"></div></label>
+          <input type="radio" id="avatar26" value="26" name="avatar">
+          <label for="avatar26"><div class="avatar26 avatar-icon"></div></label>
+          <input type="radio" id="avatar27" value="27" name="avatar">
+          <label for="avatar27"><div class="avatar27 avatar-icon"></div></label>
+          <input type="radio" id="avatar28" value="28" name="avatar">
+          <label for="avatar28"><div class="avatar28 avatar-icon"></div></label>
+          <input type="radio" id="avatar29" value="29" name="avatar">
+          <label for="avatar29"><div class="avatar29 avatar-icon"></div></label>
+          <input type="radio" id="avatar30" value="30" name="avatar">
+          <label for="avatar30"><div class="avatar30 avatar-icon"></div></label>
+          <input type="radio" id="avatar31" value="31" name="avatar">
+          <label for="avatar31"><div class="avatar31 avatar-icon"></div></label>
+          <input type="radio" id="avatar32" value="32" name="avatar">
+          <label for="avatar32"><div class="avatar32 avatar-icon"></div></label>
+          <input type="radio" id="avatar33" value="33" name="avatar">
+          <label for="avatar33"><div class="avatar33 avatar-icon"></div></label>
+          <input type="radio" id="avatar34" value="34" name="avatar">
+          <label for="avatar34"><div class="avatar34 avatar-icon"></div></label>
+          <input type="radio" id="avatar35" value="35" name="avatar">
+          <label for="avatar35"><div class="avatar35 avatar-icon"></div></label>
+          <input type="radio" id="avatar36" value="36" name="avatar">
+          <label for="avatar36"><div class="avatar36 avatar-icon"></div></label>
+          <input type="radio" id="avatar37" value="37" name="avatar">
+          <label for="avatar37"><div class="avatar37 avatar-icon"></div></label>
+          <input type="radio" id="avatar38" value="38" name="avatar">
+          <label for="avatar38"><div class="avatar38 avatar-icon"></div></label>
+          <input type="radio" id="avatar39" value="39" name="avatar">
+          <label for="avatar39"><div class="avatar39 avatar-icon"></div></label>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-to-play">
+      <br>
+      <br>
+      <br>
+      <h2>Instructions</h2>
+      <br>
+      <br>
+      <ol class="double-spaced">
+        <li>See the question on the screen<br><br>
+          <img src="//raw.githubusercontent.com/warrenshea/timeplay/master/images/how-to-play-desktop.png">
+        </li>
+        <li>
+          Press the answer on your mobile screen
+          <br><br>
+          <img src="//raw.githubusercontent.com/warrenshea/timeplay/master/images/how-to-play-phone.png">
+        </li>
+        <li>
+          See if you're correct when the timer runs out<br><br>
+          <img src="//raw.githubusercontent.com/warrenshea/timeplay/master/images/how-to-play-phone-correct.png">
+        </li>
+      </ol>
+      <br>
+      <h2 class="centered">Question 1 incoming...</h2>
+    </section>
+
+    <section id="question1" class="question">
+      <h1>Question 1</h1>
+      <div>
+        <div class="actual-question">
+          This following image should be saved as a<br><br>
+          <img src="//raw.githubusercontent.com/warrenshea/timeplay/master/images/q1.jpg">
+        </div>
+        <div class="selections">
+          <ol type="A">
+            <li>PNG</li>
+            <li class="correct">JPG/JPEG</li>
+            <li>GIF</li>
+            <li>SVG</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="question2" class="question">
+      <h1>Question 2</h1>
+      <div>
+        <div class="actual-question">
+          Which two image formats have image transparency?<br><br>
+          <div class="selections large">
+            <ol type="A">
+              <li class="correct">PNG &amp; GIF</li>
+              <li>SVG &amp; JPG/JPEG</li>
+              <li>SVG &amp; BMP</li>
+              <li>PNG &amp; JPG/JPEG</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="question3" class="question">
+      <h1>Question 3</h1>
+      <div>
+        <div class="actual-question centered">
+          If this desktop layout had a fluid grid, what would it <em>typically</em> look like in mobile?<br><br>
+          <img src="//raw.githubusercontent.com/warrenshea/timeplay/master/images/q3-desktop.jpg"><br><br>
+          <ul>
+            <li><img src="//raw.githubusercontent.com/warrenshea/timeplay/master/images/q3-a.png"></li>
+            <li><img src="//raw.githubusercontent.com/warrenshea/timeplay/master/images/q3-b.png"></li>
+            <li><img src="//raw.githubusercontent.com/warrenshea/timeplay/master/images/q3-c.png"></li>
+            <li><img src="//raw.githubusercontent.com/warrenshea/timeplay/master/images/q3-d.png"></li>
+          </ul>
+        </div>
+        <div class="selections">
+          <ol type="A">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="correct"></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="question4" class="question">
+      <h1>Question 4</h1>
+      <div>
+        <div class="actual-question">
+          This following card image <b class="red-border">inside the red border</b> should be saved as a<br><br>
+          <img src="//raw.githubusercontent.com/warrenshea/timeplay/master/images/q4.jpg">
+        </div>
+        <div class="selections">
+          <ol type="A">
+            <li class="correct">PNG</li>
+            <li>JPG/JPEG</li>
+            <li>GIF</li>
+            <li>SVG</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="question5" class="question">
+      <h1>Question 5</h1>
+      <div>
+        <div class="actual-question">
+          Which image format is VECTOR based?<br><br>
+          <div class="selections large">
+            <ol type="A">
+              <li>GIF</li>
+              <li class="correct">SVG</li>
+              <li>BMP</li>
+              <li>JPG/JPEG</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="question6" class="question">
+      <h1>Question 6</h1>
+      <div>
+        <div class="actual-question">
+          Which is not always true of SVGs?<br><br>
+          <div class="selections large">
+            <ol type="A">
+              <li>Is XML</li>
+              <li>Are Scalable</li>
+              <li class="correct">Low File Size</li>
+              <li>Is code based</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="question7" class="question">
+      <h1>Question 7</h1>
+      <div>
+        <div class="actual-question">
+          Which is <b>not</b> a form of animation motion?<br><br>
+          <div class="selections large">
+            <ol type="A">
+              <li>Ease In Out</li>
+              <li>Linear</li>
+              <li>Default</li>
+              <li class="correct">Radial</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="question8" class="question">
+      <h1>Question 8</h1>
+      <div>
+        <div class="actual-question">
+          The color contrast ratio of 4.5:1 for normal text meets which Accessibility Guideline<br><br>
+          <div class="selections large">
+            <ol type="A">
+              <li>WCAG 2.0 LEVEL A</li>
+              <li class="correct">WCAG 2.0 LEVEL AA</li>
+              <li>WCAG 2.0 LEVEL AAA</li>
+              <li>WCAG 2.0 LEVEL AAAA</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="question9" class="question">
+      <h1>Question 9</h1>
+      <div>
+        <div class="actual-question">
+          Which number of grids/columns is trending for responsive websites/frameworks?<br><br>
+          <div class="selections large">
+            <ol type="A">
+              <li>1</li>
+              <li>8</li>
+              <li class="correct">12</li>
+              <li>16</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>    
+
+    <section id="question10" class="question">
+      <h1>Question 10</h1>
+      <div>
+        <div class="actual-question">
+           The task of taking an image described in a vector graphics format (shapes) and converting it into a bitmap image (pixels or dots) is called<br><br>
+          <div class="selections large">
+            <ol type="A">
+              <li>Devectorization</li>
+              <li>Progressive Enhancement</li>
+              <li class="correct">Rasterisation</li>
+              <li>Interlacing</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>   
+
+    <section id="results">
+      <h1>Scoreboard</h1>
+      <br><br>
+      <div class="scoreboard">
+      </div>
+    </section>
+
+    <script src="//cdn.socket.io/socket.io-1.3.5.js"></script>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="//cdn.rawgit.com/hilios/jQuery.countdown/2.2.0/dist/jquery.countdown.min.js"></script>
+    <script>
+      //step 0 - intro to start + avatars
+      //step 1 - how to play instructions
+      //step 2 - question 1
+      (function(){
+        'use strict';
+        var socket = io();
+        var avatarsObj            = {players: []};
+        var state                 = 0,
+            numberQuestions       = 10,
+            resultsPage           = numberQuestions;
+        var clockContainer        = $(".clock-container"),
+            step0AvatarSelection  = $("#pick-your-avatar"),
+            step1howToPlay        = $("#how-to-play"),
+            stepXquestionX        = $(".question"),
+            stepFinalResultsPage  = $("#results");
+        var clock                 = $("#clock"),
+            step1howToPlayTimer   = 1000 * 15, /*25 sec*/
+            stepXquestion         = 1000 * 15, /*25 sec*/
+            stepXquestionResults  = 1000 * 5; /*5 sec*/
+
+        $(function(){
+
+          $(step0AvatarSelection.find(".start")).on("click", function() {
+            //console.log("Start Timeplay! Turn the clock and instructions on!");
+            step0AvatarSelection.hide();
+            step1howToPlay.show();
+            clockContainer.show();
+            state++; //1
+            clock.off().countdown(new Date().valueOf() + step1howToPlayTimer)
+              .on('update.countdown', function(event) {
+                var format = '%S';
+                $(this).html(event.strftime(format));
+              })
+              .on('finish.countdown', function(event) {
+                step1howToPlay.hide();
+                //console.log("Let's see question # " + state);
+                updateState("Show Next Question");
+              });
+          });
+
+/*          $(".pause").on("click",function(){
+            if ($(this).hasClass("resume")) {
+              clock.countdown('resume');
+              $(".pause").removeClass("resume");
+              $(".pause").html("pause");
+            } else {
+              clock.countdown('pause');
+              $(".pause").addClass("resume");
+              $(".pause").html("resume");
+            }
+          });*/
+
+          var updateState = function (action) {
+            switch(action) {
+              case "Show Next Question":
+                $(".question").hide();
+                $("#question" + state).show();
+                socket.emit('show question', state);
+                clock.off().countdown(new Date().valueOf() + stepXquestion)
+                  .on('update.countdown', function(event) {
+                    var format = '%S';
+                    $(this).html(event.strftime(format));
+                  })
+                  .on('finish.countdown', function(event) {
+                    //console.log("Let's see the results of this question");
+                    updateState("Show Results of Question");
+                  });
+                break;
+              case "Show Results of Question":
+                socket.emit('show answer', $("#question" + state).find(".correct").index() );
+                $($("#question" + state).find(".correct")).addClass("highlight");
+
+                clock.off().countdown(new Date().valueOf() + stepXquestionResults)
+                  .on('update.countdown', function(event) {
+                    var format = '%S';
+                    $(this).html(event.strftime(format));
+                  })
+                  .on('finish.countdown', function(event) {
+                    if (state == resultsPage) {
+                      //console.log("Show Final Results Page");
+                      updateState("Show Final Results Page");
+                    } else {
+                      state++;                      
+                      //console.log("Let's see question # " + state);
+                      updateState("Show Next Question");
+                    }
+                  });
+                break;
+              case "Show Final Results Page":
+                $(".question").hide();
+                clockContainer.hide();
+                stepFinalResultsPage.show();
+                socket.emit('show results',avatarsObj,numberQuestions);
+                clock.countdown('stop');
+                break;
+            }
+          }
+
+          var howManyCorrect = function(question) {
+            var count = 0;
+            $.each(avatarsObj.players, function() {
+              switch (question) {
+                case 1:
+                  if (this.q1 == 1) { count++ };
+                  break;
+                case 2:
+                  if (this.q2 == 1) { count++ };
+                  break;
+                case 3:
+                  if (this.q3 == 1) { count++ };
+                  break;
+                case 4:
+                  if (this.q4 == 1) { count++ };
+                  break;
+                case 5:
+                  if (this.q5 == 1) { count++ };
+                  break;
+                case 6:
+                  if (this.q6 == 1) { count++ };
+                  break;
+                case 7:
+                  if (this.q7 == 1) { count++ };
+                  break;
+                case 8:
+                  if (this.q8 == 1) { count++ };
+                  break;
+                case 9:
+                  if (this.q9 == 1) { count++ };
+                  break;
+                case 10:
+                  if (this.q10 == 1) { count++ };
+                  break;
+              }
+              stepXquestionX.find("numCorrect").html(count);
+            });
+          }
+
+          var translate = function(number) {
+            if (number == 1) {
+              return "<img src=\"//raw.githubusercontent.com/warrenshea/timeplay/master/images/checkmark.png\">";
+            } else {
+              return "";
+            }
+          }
+
+          /*request what avatars are taken*/
+          socket.emit('update avatar list');
+
+          /*update avatar selection on load - event listener*/
+          socket.on('disable these uids', function(avatarsObj){
+            $.each(avatarsObj.players,function() {
+              $("#avatar" + this.uid).prop("disabled",true);
+              $("label[for=avatar" + this.uid + "]").addClass("disabled");
+            });
+          });
+
+          socket.on('show results page', function(){
+            var sorted = avatarsObj.players.sort(function(a, b) {
+              return parseFloat(b.score) - parseFloat(a.score);
+            });
+            var results = "<table class=\"scoreboard\"><tr><th>Avatar</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>Final Score</th></tr>"            
+            $.each(sorted, function() {
+              results += "<tr><td><div class=\"avatar" + this.uid + " avatar-icon\"></div></td><td>" + translate(this.q1) + "</td><td>" + translate(this.q2) + "</td><td>" + translate(this.q3) + "</td><td>" + translate(this.q4) + "</td><td>" + translate(this.q5) + "</td><td>" + translate(this.q6) + "</td><td>" + translate(this.q7) + "</td><td>" + translate(this.q8) + "</td><td>" + translate(this.q9) + "</td><td>" + translate(this.q10) + "</td><td class=\"score\"><h3>" + this.score + "</h3></td></tr>";
+              //console.log("UID:" + this.uid + " SCORE:" + this.score);
+            });
+            results += "</table>";
+            stepFinalResultsPage.find(".scoreboard").html(results);
+          });
+
+          /*the avatar was available and is now taken...by you! - event listener*/
+          socket.on('avatar is now taken', function(userID){
+            $("#avatar" + userID).prop("disabled",true);
+            $("label[for=avatar" + userID + "]").addClass("disabled");
+            avatarsObj.players.push({uid:userID,score:0,q1:0,q2:0,q3:0,q4:0,q5:0,q6:0,q7:0,q8:0,q9:0,q10:0});
+            //console.log("UID:" + userID + " added");
+          });
+
+          socket.on('user answered', function(userAnswer){
+            //console.log("UID:" + userAnswer.userid + " ANSWERED: " + userAnswer.answer);
+          });
+
+          socket.on('get avatars in use', function() {
+            socket.emit('recieve avatar list',avatarsObj);
+            //console.log('Avatar IDs in use ' + avatarsObj);
+            $.each(avatarsObj.players, function() {
+              //console.log("UID:" + this.uid + " SCORE:" + this.score);
+            });
+          });
+
+          socket.on('add users score',function(uid) {
+            $.each(avatarsObj.players, function() {
+              if (this.uid == uid) {
+                switch (state) {
+                  case 1:
+                    this.q1 = 1;
+                    break;
+                  case 2:
+                    this.q2 = 1;
+                    break;
+                  case 3:
+                    this.q3 = 1;
+                    break;
+                  case 4:
+                    this.q4 = 1;
+                    break;
+                  case 5:
+                    this.q5 = 1;
+                    break;
+                  case 6:
+                    this.q6 = 1;
+                    break;
+                  case 7:
+                    this.q7 = 1;
+                    break;
+                  case 8:
+                    this.q8 = 1;
+                    break;
+                  case 9:
+                    this.q9 = 1;
+                    break;
+                  case 10:
+                    this.q10 = 1;
+                    break;
+                }
+                this.score = this.score+1;
+                //console.log("UID:" + this.uid + " Q1:" + this.q1 + " Q2:" + this.q2 + " Q3:" + this.q3 + " Q4:" + this.q4 + " Q5:" + this.q5 + " Q6:" + this.q6 + " Q7:" + this.q7 + " Q8:" + this.q8 + " Q9:" + this.q9 + " Q10:" + this.q10 + " SCORE:" + this.score);
+              }
+            });
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>

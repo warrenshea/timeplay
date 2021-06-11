@@ -1,0 +1,20 @@
+{
+  "name": "timeplay",
+  "version": "0.0.1",
+  "description": "a design and development web 101 quiz",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.13.1",
+    "socket.io": "^1.3.6"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warrenshea/timeplay"
+  }
+}

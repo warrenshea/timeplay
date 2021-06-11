@@ -1,0 +1,148 @@
+* { margin: 0; box-sizing: border-box; }
+html {font:16px 'Exo 2', arial, verdana;color:#fff;background: linear-gradient(207deg, #1c67b0, #670000);background-size: 700% 700%;-webkit-animation: gradientBG 30s ease infinite;-moz-animation: gradientBG 30s ease infinite;animation: gradientBG 30s ease infinite;padding-bottom:20rem;}
+@-webkit-keyframes gradientBG {
+  0%{background-position:65% 0%}
+  50%{background-position:36% 80%}
+  100%{background-position:65% 0%}
+}
+@-moz-keyframes gradientBG {
+  0%{background-position:65% 0%}
+  50%{background-position:36% 80%}
+  100%{background-position:65% 0%}
+}
+@keyframes gradientBG {
+  0%{background-position:65% 0%}
+  50%{background-position:36% 80%}
+  100%{background-position:65% 0%}
+}
+
+h1{font-size:2.7rem;}
+h2{font-size:1.6rem;}
+.centered{text-align:center;}
+ol {text-align:left;display:inline-block;margin:auto;}
+ol.double-spaced li{margin-bottom:1rem;}
+
+.avatar-icon.avatar0{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 0}
+.avatar-icon.avatar1{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -80px}
+.avatar-icon.avatar2{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -160px}
+.avatar-icon.avatar3{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -240px}
+.avatar-icon.avatar4{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -320px}
+.avatar-icon.avatar5{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -400px}
+.avatar-icon.avatar6{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -480px}
+.avatar-icon.avatar7{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -560px}
+.avatar-icon.avatar8{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -640px}
+.avatar-icon.avatar9{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -720px}
+.avatar-icon.avatar10{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -800px}
+.avatar-icon.avatar11{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -880px}
+.avatar-icon.avatar12{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -960px}
+.avatar-icon.avatar13{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -1040px}
+.avatar-icon.avatar14{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -1120px}
+.avatar-icon.avatar15{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -1200px}
+.avatar-icon.avatar16{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -1280px}
+.avatar-icon.avatar17{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -1360px}
+.avatar-icon.avatar18{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -1440px}
+.avatar-icon.avatar19{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -1520px}
+.avatar-icon.avatar20{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -1600px}
+.avatar-icon.avatar21{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -1680px}
+.avatar-icon.avatar22{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -1760px}
+.avatar-icon.avatar23{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -1840px}
+.avatar-icon.avatar24{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -1920px}
+.avatar-icon.avatar25{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -2000px}
+.avatar-icon.avatar26{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -2080px}
+.avatar-icon.avatar27{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -2160px}
+.avatar-icon.avatar28{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -2240px}
+.avatar-icon.avatar29{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -2320px}
+.avatar-icon.avatar30{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -2400px}
+.avatar-icon.avatar31{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -2480px}
+.avatar-icon.avatar32{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -2560px}
+.avatar-icon.avatar33{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -2640px}
+.avatar-icon.avatar34{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -2720px}
+.avatar-icon.avatar35{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -2800px}
+.avatar-icon.avatar36{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -2880px}
+.avatar-icon.avatar37{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -2960px}
+.avatar-icon.avatar38{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -3040px}
+.avatar-icon.avatar39{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -3120px}
+.avatar-icon.avatar40{background:url('//raw.githubusercontent.com/warrenshea/timeplay/master/images/avatars.jpg') no-repeat 0 -3200px}
+.player .avatar-icon,
+.admin .avatar-icon{width:80px;height:80px;background-size:100% 4100%;}
+
+.player #alert{display:none;margin:0.5rem;}
+
+.player #pick-your-avatar {margin:0.5rem;padding:0.5rem 0.5rem 11rem;}
+.player #pick-your-avatar .avatar-icon-container {margin:0 auto;display:flex;flex-direction:row;justify-content:space-around;flex-wrap:wrap;}
+.player #pick-your-avatar input{display:none;}
+.player #pick-your-avatar label{width:4.3rem;height:4.3rem;margin:0.1rem 0;opacity: 0.75;display:inline-block;overflow:hidden;}
+.player #pick-your-avatar label .avatar-icon{zoom:0.9;}
+.player #pick-your-avatar label.disabled{opacity: .85; -webkit-filter: grayscale(100%);filter: grayscale(100%)}
+.player #pick-your-avatar label.selected{opacity: 1;}
+
+.player #avatar-selection{height:11rem;width:100%;position:fixed;bottom:0;border-top:2px solid red;transform: translateY(0);background: linear-gradient(207deg, #2d78c1, #780000);background-size: 400% 400%;-webkit-animation: gradientBG 16s ease infinite;-moz-animation: gradientBG 16s ease infinite;animation: gradientBG 16s ease infinite;padding:0.5rem;z-index:999;}
+.player #avatar-selection.maximize{transform: translateY(0);animation:slideUp 0.8s ease 0s 1;}
+.player #avatar-selection.minimize{transform: translateY(8.3rem);animation:slideDown 0.8s ease 0s 1;}
+@keyframes slideDown {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(8.3rem);}
+}
+@keyframes slideUp {
+  0% {transform: translateY(8.3rem);}
+  100% {transform: translateY(0);}
+}
+.player #avatar-selection .avatar-hidden{opacity:0;}
+.player #avatar-selection .avatar-show{opacity:0;display:none;}
+.player #avatar-selection .selected-avatar {height:5rem;width:5rem;opacity:1;margin-top:0.5rem;border:1px solid black;float:none;display:inline-block;}
+.player #avatar-selection input[form="form-pick-avatar"] {font:16px 'Exo 2', arial, verdana;color:#fff;font-weight:bold;background:transparent;margin-top:0.5rem;padding:0.6rem 2rem;border-radius:1.5rem;border: 0;line-height: normal;overflow: visible;-webkit-appearance: button;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;border:2px solid #FFF;}
+
+.player #answers{display:none;}
+.player #answers input{display:none;}
+.player #answers label{display:block;width:80%;margin:0 auto;text-align:center;font-size:2rem;margin:2.7rem 10% 2rem;padding:0.8rem 0 1rem;border:2px solid white;border-radius:2.5rem;}
+.player #answers label.disabled{border:2px solid grey;background:grey;}
+.player #answers label.selected{border:2px solid #FFF;background:#0079c1;}
+.player #answers label.correct{border:2px solid darkgreen;background:forestgreen;}
+.player #answers label.incorrect{border:2px solid #600;background:darkred;}
+
+.player #results{display:none;}
+
+
+.admin .clock-container {display:none;width:6rem;position:absolute;top:2rem;right:2rem;padding:1rem;background:#666;box-shadow:#444 4px 4px 4px;}
+.admin .clock-container #clock {font-size:2rem;}
+.admin .clock-container .pause-container {position:absolute;left:0;}
+.admin .clock-container .pause {text-decoration:none;position:absolute;bottom:-4rem;left:0;width:6rem;padding:1rem;color:#fff;}
+
+.admin #pick-your-avatar .container{width:54rem;margin:0 auto;}
+.admin #pick-your-avatar .welcome {width:30%;float:left;}
+.admin #pick-your-avatar .welcome .start {margin:0 auto;width:8rem;height:8rem;padding-top:1.5rem;border:0.2rem solid white;border-radius:5rem;}
+.admin #pick-your-avatar .welcome .start .arrow{width:0;height:0;border-right:2rem solid transparent;border-top:1rem solid transparent;border-bottom:1rem solid transparent;border-left:2rem solid white;transform:translateX(30%);margin:0 auto;}
+.admin #pick-your-avatar .get-started {width:70%;float:left;}
+
+.admin #pick-your-avatar .avatar-icon-container {margin:0 auto;display:flex;flex-direction:row;justify-content:space-around;flex-wrap:wrap;}
+.admin #pick-your-avatar input{display:none;}
+.admin #pick-your-avatar label {height:80px;width:80px;margin:0.25rem 0rem;background-color:#cacaca;border:1px solid black;float:left;opacity:1;overflow:hidden;}
+.admin #pick-your-avatar label.disabled{opacity: 1; -webkit-filter: grayscale(100%);filter: grayscale(100%);}
+.admin #pick-your-avatar label.selected{opacity: 1;}
+
+.admin #how-to-play{display:none;font-size:1.4rem;width:90%;margin:0 auto;}
+.admin #how-to-play ol {display:block;margin:0 auto;padding:0;}
+.admin #how-to-play ol li{width:30%;display:inline-block;vertical-align:top;}
+
+.admin .question {display:none;font-size:1.4rem;padding:2.5rem 0 0 3rem;}
+.admin .question h1 {margin-bottom:1rem;}
+.admin .question .actual-question{display:inline-block;width:60%;vertical-align:top;}
+.admin .question .selections {display:inline-block;width:25%;}
+.admin .question .selections.large {display:block;width:100%;}
+.admin .question .selections .results-chart {display:none;}
+.admin .question .selections ol {display:block;padding:0;}
+.admin .question .selections li {width:80%;margin:0 auto;text-align:center;font-size:2rem;margin:2.7rem 15% 2rem;padding:0.8rem 0 1rem;border:2px solid white;border-radius:2.5rem;}
+.admin .question .selections li.correct.highlight{border:2px solid darkgreen;background:forestgreen;}
+.admin .question .red-border{border:1px solid red}
+.admin #question3 .actual-question {width:65%;}
+.admin #question3 .actual-question ul{display:block;background:#fff;padding:1rem 0;}
+.admin #question3 .actual-question li{display:inline;padding:0 5%;}
+.admin #question3 .selections {width:25%;}
+.admin #question3 .selections li{width:30%;margin-left:30%;}
+
+.admin #results {display:none;padding:2.5rem 3rem 0}
+.admin #results .scoreboard {border-collapse:collapse;border-spacing:0;}
+.admin #results .scoreboard th{background:#000;}
+.admin #results .scoreboard th,
+.admin #results .scoreboard td{width:8%;border:1px solid #999;text-align:center;}
+.admin #results .scoreboard tr:nth-child(odd) { background-color:#444; }
