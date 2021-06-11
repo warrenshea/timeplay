@@ -25,7 +25,7 @@
       </div>
       <div class="avatar-show">Hide Your Avatar</div>
       <div>
-        <input form="form-pick-avatar" type="submit" name="submit" value="Confirm">
+        <button form="form-pick-avatar" type="submit" name="submit" value="Confirm"></button>
       </div>
     </div>
 
@@ -154,7 +154,7 @@
             step0AvatarSelection = $("#pick-your-avatar");
         var avatarSelection      = $('form[name="pickAvatar"]'),
             avatarSelectionEl    = avatarSelection.find("input[name=avatar]"),
-            avatarSubmitBtn      = $('input[form="form-pick-avatar"]'),
+            avatarSubmitBtn      = $('button[form="form-pick-avatar"]'),
             answersFormEl        = $('form[name="answers"]');
 
         answersFormEl.on('change', function(e){
